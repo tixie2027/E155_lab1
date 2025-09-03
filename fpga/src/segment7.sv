@@ -1,4 +1,4 @@
-module segment7(input logic clk, input logic [3:0] s, output logic [2:0] led, output logic [6:0] seg);
+module segment7(input logic [3:0] s, output logic [2:0] led, output logic [6:0] seg);
 
 always_comb begin :
     case (s)
